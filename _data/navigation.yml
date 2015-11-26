@@ -1,11 +1,15 @@
 #
 #   Navigation to the left › side: left
 #
-- title: Start
+- title: Jeremy
   url: "/"
   side: left
 
-- title: "Dropdown Menu"
+- title: CV
+  url: "/cv/"
+  side: left
+
+- title: Projects
   url: "#"
   side: left
   dropdown:
@@ -19,20 +23,14 @@
 - title: Blog
   url: "/blog/"
   side: left
-  dropdown:
-  - title: "Blog Archive"
-    url: "/blog/archive/"
+
+- title: Photography
+  url: "/photos/"
+  side: left
 
 #
 #   Navigation to the right › side: right
 #
-- title: "Info"
-  url: "/info/"
-  side: right
-
-- title: "Search"
-  url: "/search/"
-  side: right
 
 - title: "Contact"
   url: "/contact/"

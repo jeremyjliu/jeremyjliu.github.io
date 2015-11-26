@@ -8,28 +8,26 @@
 #                                                 /____/        
 #
 # Title of your website
-title: "Feeling Responsive"
-
+title: "Jeremy Liu"
 
 # The slogan describes your website and is used on homepage in <title> and other important places
-slogan: "A Flexible Theme for Jekyll"
-
+slogan: "A Portfolio"
 
 # The description is used on homepage and in the footer to quickly describe your website. Use a maximum of 150 characters for SEO-purposes.
-description: "The description is used on homepage and in the footer to quickly describe your website. Use a maximum of 150 characters for SEO-purposes."
+description: "The personal website, portfolio and thoughts Jeremy Liu" # Max 150 Characters
 
 # Main author of the website
 # See > authors.yml
-author: phlow
+author: jeremy
 
 # This URL is the main address for absolute links. Don't include a slash at the end.
 #
-url: 'https://phlow.github.io/feeling-responsive'
+url: 'https://jeremyjliu.github.io'
 baseurl: ''
 
 # This is for the editing function in _/includes/improve_content
 # Leave it empty if your site is not on GitHub/GitHub Pages
-improve_content: https://github.com/Phlow/feeling-responsive/edit/gh-pages
+improve_content: https://github.com/jeremyjliu/jeremyjliu.github.io/edit/gh-pages
 
 # This URL points directly to the images directory making
 # things easier to link to images in posts and templates. It needs a slash at the end.
@@ -37,20 +35,16 @@ improve_content: https://github.com/Phlow/feeling-responsive/edit/gh-pages
 # Example: <img src="{{ site.urlimg }}{{ post.image.title }}" />
 # Markdown-Example for posts ![Image Text]({{ site.urlimg }}image.jpg)
 #
-urlimg: 'https://phlow.github.io/feeling-responsive/images/'
-
+urlimg: 'https://github.com/jeremyjliu/jeremyjliu.github.io/images/'
 
 # Logo size is 600x80 pixels
 logo: "logo.png"
 
-
 # Paginates all X entries
 paginate: 5
 
-
 # Pagination path › Important for blog page in /blog/ to work
 paginate_path: "blog/page:num"
-
 
 # Theme works best with Kramdown (using the table of contents function)
 markdown: kramdown
@@ -68,10 +62,8 @@ exclude:
     - README.md
     - INSTALL.md
 
-
 # The language setting is used in /includes/header.html for html-settings
 language: "en"
-
 
 # Used › default.html front-matter and compress.html
 # Options › http://jch.penibelst.de
@@ -82,7 +74,6 @@ compress_html:
   profile: false
   ignore:
     envs: [development]
-
 
 #
 #       ____       ____            ____
@@ -102,7 +93,7 @@ defaults:
       show_meta: false 	# Hide metadata for all pages
       # sidebar:    		# Possible values › left, right › by default there will be no sidebar
       comments: false
-      author: phlow     # Default author for pages
+      author: jeremy     # Default author for pages
   -
     scope:
       path: ""
@@ -111,9 +102,7 @@ defaults:
       show_meta: true   # Show metadata for all posts
       # sidebar:        # Possible values › left, right › by default there will be no sidebar
       comments: false
-      author: phlow     # Default author for posts
-
-
+      author: jeremy     # Default author for posts
 
 #       _   __            _             __  _
 #      / | / /___ __   __(_)___ _____ _/ /_(_)___  ____
@@ -195,7 +184,7 @@ msapplication_tilecolor:                "#fabb00"
 #
 # used in _includes/comments
 
-# disqus_shortname: 
+# disqus_shortname: jeremy
 
 
 #      _____

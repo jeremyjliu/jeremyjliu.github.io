@@ -5,10 +5,11 @@
 # 3. Change default post/page authors in config.yml
 #
 # Resource › http://blog.sorryapp.com/blogging-with-jekyll/2014/02/06/adding-authors-to-your-jekyll-site.html
-jeremy: # replace this with your info
+jeremy:
   name: "Jeremy"
   siterole: "webmaster, developer, copywriter, designer"
-  uri: http://phlow.de/
-  email:
-  twitter: "@phlow"
-# you can add more authors here
+  uri: http://jeremyjliu.github.io
+  email: jeremy.jl.liu@gmail.com
+  twitter: "@jerliu64"
+
+# Additional Authors
